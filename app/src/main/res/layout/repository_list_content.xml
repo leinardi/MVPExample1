@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemContentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/clickableContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:minHeight="72dp"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:drawableLeft="@drawable/ic_git"
+            android:drawableStart="@drawable/ic_git"
+            android:gravity="center_vertical"
+            android:drawablePadding="8dp"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:textSize="18sp"
+            tools:text="Name name name" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:drawableLeft="@drawable/ic_owner"
+            android:drawableStart="@drawable/ic_owner"
+            android:drawablePadding="8dp"
+            android:id="@+id/owner"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:textColor="@color/primary"
+            android:textSize="16sp"
+            tools:text="owner" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:drawableLeft="@drawable/ic_info"
+            android:drawableStart="@drawable/ic_info"
+            android:drawablePadding="8dp"
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="12dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp"
+            tools:text="description description description description description description" />
+
+    </LinearLayout>
+</FrameLayout>

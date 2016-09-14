@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVP Example 1</string>
+    <string name="error_alert_dialog_title">Error</string>
+    <string name="open_in_browser_title">Open in browser</string>
+    <string name="open_in_browser_message">What page you want to open in the default browser?</string>
+    <string name="open_repo_page">Open repo page</string>
+    <string name="open_owner_page">Open owner page</string>
+</resources>
